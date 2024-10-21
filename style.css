@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Regular.eot');
+    src: url('Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Oswald-Regular.woff2') format('woff2'),
+        url('Oswald-Regular.woff') format('woff'),
+        url('Oswald-Regular.ttf') format('truetype'),
+        url('Oswald-Regular.svg#Oswald-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-ThinItalic.eot');
+    src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-ThinItalic.woff2') format('woff2'),
+        url('Montserrat-ThinItalic.woff') format('woff'),
+        url('Montserrat-ThinItalic.ttf') format('truetype'),
+        url('Montserrat-ThinItalic.svg#Montserrat-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    background-color: #e8631c;
+}
+
+.main-header {
+    background-color: #303030;
+    position: sticky;
+    z-index: 111;
+    top: 0;
+}
+
+.width-set {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.nav-logo,
+.right-nav,
+ul.menu-list li,
+.nav-list,
+.nav-search {
+    display: inline-block;
+}
+
+ul.menu-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+
+ul.menu-list li {
+    padding-left: 30px;
+}
+
+.nav-logo {
+    width: 15%;
+}
+
+.right-nav {
+    width: 84%;
+    text-align: right;
+}
+
+.nav-list {
+    width: 80%;
+    text-align: left;
+}
+
+.main-content-1 {
+    background: url(images/body-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 790px;
+    padding-top: 350px;
+}
+
+.title-1 h2 {
+    color: #fff;
+    font-size: 90px;
+    font-family: 'Oswals';
+}
+
+.paragraph-1 p {
+    color: #fff;
+    font-size: 25px;
+    width: 37%;
+    font-family: 'Montserrat';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-1 button {
+    color: #fff;
+    background-color: #e8631c;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+}
+
+.main-content-2 {
+    background: url(images/body-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 830px;
+    padding-top: 80px;
+}
+
+.top-2 {
+    text-align: center;
+}
+
+.title-2 h2 {
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Oswald';
+}
+
+.paragraph-2 p {
+    color: #fff;
+    font-size: 23px;
+    width: 35%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    padding-top: 20px;
+}
+
+.grid-template-2,
+.grid-template-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.post-desc {
+    background-color: #303030;
+    width: 68%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.desc-title-1 h2 {
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+.desc-lorem p {
+    color: #fff;
+    width: 76%;
+    margin: 0 auto;
+}
+
+.main-content-3 {
+    background: url(images/body-3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 830px;
+    padding-top: 80px;
+}
+
+.card-1 {
+    background-color: #e8631c;
+    width: 88%;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.card-title h2 {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Oswald';
+    font-size: 40px;
+}
+
+.card-lorem p {
+    color: #fff;
+    width: 59%;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    padding-bottom: 20px;
+}
+
+.card-btn button {
+    color: #fff;
+    border: none;
+    background-color: #303030;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.main-content-4 {
+    background: url(images/body-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 40%;
+}
+
+.col-md-5.cus-4 {
+    padding-top: 400px;
+}
+
+.title-4 h2 {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Oswald';
+}
+
+.paragraph-4 p {
+    color: #fff;
+    font-size: 22px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat';
+}
+
+.btn-4 button {
+    border: none;
+    padding: 10px;
+    background-color: #303030;
+    color: #fff;
+    width: 30%;
+    border-radius: 5px;
+}
+
+
+.main-content-5 {
+    background: url(images/body-5.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+}
+
+.main-content-6 {
+    background-color: #303030;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.top-6 {
+    text-align: center;
+}
+
+.title-6 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Oswald';
+}
+
+.paragraph-6 p {
+    color: #fff;
+    font-size: 24px;
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+}
+
+.grid-template-6 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.post-title-1 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Oswald';
+}
+
+.post-paragraph-1 p {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Montserrat';
+}
+
+.main-content-7 {
+    background: url(images/body-7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1050px;
+    padding-top: 400px;
+    text-align: center;
+}
+
+.paragraph-7 p {
+    color: #fff;
+    font-size: 45px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.title-7 h2 {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Oswald';
+}
+
+.main-content-8 {
+    background: url(images/body-8.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.title-8 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Oswald';
+}
+
+.paragraph-8 p {
+    color: #fff;
+    font-size: 22px;
+    width: 38%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+}
+
+.form-8 {
+    padding-top: 60px;
+}
+
+.input-email,
+.sub-btn-8 {
+    display: inline-block;
+}
+
+.input-email input {
+    border: none;
+    padding: 9px;
+    width: 400px;
+}
+
+.sub-btn-8 button {
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    padding: 9px;
+    width: 135px;
+}
+
+.sub-btn-8 {
+    margin-left: -5px;
+}
+
+.main-footer {
+    background-color: #303030;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.insta-icon,
+.facebook-icon,
+.twitter-icon,
+.watsapp-icon {
+    display: inline-block;
+    padding: 6px;
+}
+
+.footer-title-1 h2,
+.title-md-2 h2 {
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+.footer-paragraph p {
+    color: #fff;
+    width: 57%;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+ul.footer-menu {
+    padding: 0;
+    list-style: none;
+}
+
+ul.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.footer-menu li {
+    padding-top: 10px;
+}
